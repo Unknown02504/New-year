@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap');
+body {
+    background : #f8f6f6;
+}
+.content {
+    color:rgb(17, 19, 19);
+    position: absolute;
+    bottom: 40%;
+    right: 42%;
+    font-weight: 800;
+    font-size: 80px;
+    font-family: 'Bebas Neue', 'Sens-serif';
+}
+@keyframes hatao {
+    from {top: 40%;}
+    to {top: -40%;}
+}
+.gayab{
+    color:rgb(17, 19, 19);
+    position: absolute;
+    top: 40%;
+    right: 32%;
+    font-weight: 800;
+    font-size: 80px;
+    font-family: 'Bebas Neue', 'Sens-serif';
+    opacity: 1;
+    animation-name: hatao;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+@keyframes lagao{
+    from {bottom: -40%;}
+    to{bottom: 40%;}
+}
+.replace {
+    color: #220000; 
+    position: absolute; 
+    bottom: -40%;
+    right: 32%;
+    font-weight: 800;
+    font-size: 80px;
+    font-family: 'Bebas Neue', 'Sens-serif';
+    animation-name: lagao;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
